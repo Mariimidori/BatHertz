@@ -1,0 +1,21 @@
+/* Font Face Declarations */
+@font-face {
+  font-family: 'Barlow';
+  src: url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+  font-weight: 400 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap');
+  font-weight: 400;
+  font-style: normal;
+}

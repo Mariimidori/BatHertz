@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temp files
+.turbo/
+*.tmp
