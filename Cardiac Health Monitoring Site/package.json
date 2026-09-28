@@ -7,7 +7,8 @@
     "build": "vite build --config vite.figma.config.ts",
     "dev": "vite --host 0.0.0.0 --config vite.figma.config.ts",
     "preview": "vite preview --config vite.figma.config.ts",
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -70,10 +71,11 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.12",
-    "@vitejs/plugin-react": "4.7.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "@types/recharts": "^2.15.2",
+    "@vitejs/plugin-react": "4.7.0",
     "oxfmt": "^0.2.0",
     "tailwindcss": "4.1.12",
     "typescript": "^5.7.0",
