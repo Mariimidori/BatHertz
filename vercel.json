@@ -1,8 +1,4 @@
 {
   "buildCommand": "cd 'Cardiac Health Monitoring Site' && npm run build",
-  "outputDirectory": "Cardiac Health Monitoring Site/dist",
-  "devCommand": "cd 'Cardiac Health Monitoring Site' && npm run dev",
-  "env": {
-    "VITE_API_URL": "@vite-api-url"
-  }
+  "outputDirectory": "Cardiac Health Monitoring Site/dist"
 }
