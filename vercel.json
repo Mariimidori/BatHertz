@@ -1,4 +1,5 @@
 {
-  "buildCommand": "cd 'Cardiac Health Monitoring Site' && npm run build",
-  "outputDirectory": "Cardiac Health Monitoring Site/dist"
+  "buildCommand": "npx vite build --config vite.figma.config.ts",
+  "outputDirectory": "dist"
+  "framework": "vite"
 }
